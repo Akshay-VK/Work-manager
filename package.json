@@ -1,0 +1,23 @@
+{
+  "name": "work-manager",
+  "version": "1.0.0",
+  "description": "A work manager which helps in managing work, assignments, and ideas!It is made with Firebase and\\or React/ Angular or just VanillaJS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshay-VK/Work-manager.git"
+  },
+  "author": "Karuvathil Akshay Vijaykumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akshay-VK/Work-manager/issues"
+  },
+  "homepage": "https://github.com/Akshay-VK/Work-manager#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
