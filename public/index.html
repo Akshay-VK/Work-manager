@@ -5,9 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work manager</title>
+    <style>
+      main{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "ideas todo delayed"
+        "ideas todo delayed";
+        grid-template-rows: 1fr 9fr;
+        align-items: center;
+        justify-items: center;
+      }
+      header{
+        background-color: #000000;
+      }
+      #idea{
+        grid-area: ideas;
+        background-color: green;
+      }
+      #todo{
+        grid-area: todo;
+        background-color: red;
+      }
+      #delays{
+        grid-area: delayed;
+        background-color: blue;
+      }
+    </style>
 </head>
 <body>
-  <div id ="container"></div>
-    <script src = 'sketch.js'></script>
+  <main>
+    <header>HEADER</header>
+    <article id ="idea">Ideas</article>
+    <article id ="todo">Todos</article>
+    <article id = "delays">Delays</article>
+  </main>
+  
+  <script src = 'sketch.js'></script>
 </body>
 </html>
