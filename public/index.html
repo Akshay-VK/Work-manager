@@ -12,16 +12,23 @@
         "header header header"
         "ideas todo delayed"
         "ideas todo delayed";
-        grid-template-rows: 1fr 9fr;
+        grid-template-rows: 1fr auto auto;
         align-items: center;
         justify-items: center;
       }
-      header{
-        background-color: #000000;
+      nav{
+        background-color: grey;
+        width: 100%;
+        text-align: center;
+        grid-area: header;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
       #idea{
         grid-area: ideas;
         background-color: green;
+        width: 100%;
+        height: 100%;
       }
       #todo{
         grid-area: todo;
@@ -35,7 +42,7 @@
 </head>
 <body>
   <main>
-    <header>HEADER</header>
+    <nav>HEADER</nav>
     <article id ="idea">Ideas</article>
     <article id ="todo">Todos</article>
     <article id = "delays">Delays</article>
