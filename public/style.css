@@ -22,6 +22,7 @@
 .Grey-and-Blue-5-hsla { color: hsla(202, 77, 33, 1); }*/
 body{
     font-family: 'Roboto Slab', serif;
+    background-color: black;
 }
 
 main {
@@ -32,50 +33,58 @@ main {
         "header header header"
         "ideas todo delayed"
         "footer footer footer";
-    grid-template-rows: 1fr 7fr 2fr;
+    grid-template-rows: 1fr 5fr 2fr;
+    /* grid-template-rows: 10% 70% 20%; */
     gap:1vh 0.7vw;
     align-items: center;
     justify-items: center;
 }
+td{
+    width:500px;
+}
 
 nav {
-    background-color: grey;
+    background-color: #136597;
     width: 100%;
     height:100%;
+    
     text-align: center;    
     text-justify: center;    
     grid-area: header;
     padding-top:20px;
     padding-bottom: 20px;
+
 }
 
 #idea {
     grid-area: ideas;
-    background-color: green;
+    background-color: #A6A6A6;
     width:100%;
     height:100%;
-    
+    padding:10px;
 }
 
 #todo {
     grid-area: todo;
-    background-color: red;
+    background-color: #A6A6A6;
     width:100%;
-    height:100%;
-    
+    height:100%; 
+    padding:10px;
 }
 
 #delays {
     grid-area: delayed;
-    background-color: blue;
+    background-color: #A6A6A6;
     
     width:100%;
     height:100%;
+
+    padding:10px;
 }
 
 #footer {
     grid-area: footer;
-    background-color:lightgray;
+    background-color:#737373;
     text-align: left;
     text-justify: center;
     width:100%;

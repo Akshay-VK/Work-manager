@@ -51,4 +51,12 @@ The notes will have a part in the bottom of the page will show a description of 
 
 The description will also be entered by the user.
 
+### Linking
+
+You can link fields from one column to another. 
+
+For example:
+
+A idea can be linked to a todo, so that when you hover over the idea the todo also gets highlited and vice versa. There will also be a link symbol on linked fields.
+
 #### This website is still being developed.
