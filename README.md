@@ -51,4 +51,4 @@ The notes will have a part in the bottom of the page will show a description of 
 
 The description will also be entered by the user.
 
-#### This website is sill being developed.
+#### This website is still being developed.
