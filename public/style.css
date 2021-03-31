@@ -1,3 +1,27 @@
+/* Color scheme:*/
+
+/* Color Theme Swatches in Hex */
+/*.Grey-and-Blue-1-hex { color: #737373; }
+.Grey-and-Blue-2-hex { color: #A6A6A6; }
+.Grey-and-Blue-3-hex { color: #FFFFFF; }
+.Grey-and-Blue-4-hex { color: #00A1F2; }
+.Grey-and-Blue-5-hex { color: #136597; }*/
+
+/* Color Theme Swatches in RGBA */
+/*.Grey-and-Blue-1-rgba { color: rgba(114, 114, 114, 1); }
+.Grey-and-Blue-2-rgba { color: rgba(165, 165, 165, 1); }
+.Grey-and-Blue-3-rgba { color: rgba(255, 255, 255, 1); }
+.Grey-and-Blue-4-rgba { color: rgba(0, 161, 242, 1); }
+.Grey-and-Blue-5-rgba { color: rgba(18, 100, 151, 1); }*/
+
+/* Color Theme Swatches in HSLA */
+/*.Grey-and-Blue-1-hsla { color: hsla(0, 0, 45, 1); }
+.Grey-and-Blue-2-hsla { color: hsla(0, 0, 65, 1); }
+.Grey-and-Blue-3-hsla { color: hsla(0, 0, 100, 1); }
+.Grey-and-Blue-4-hsla { color: hsla(200, 100, 47, 1); }
+.Grey-and-Blue-5-hsla { color: hsla(202, 77, 33, 1); }*/
+
+
 main {
     height:97vh;
     width: 100%;
