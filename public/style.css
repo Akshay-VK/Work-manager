@@ -1,0 +1,48 @@
+main {
+    height:97vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "ideas todo delayed"
+        "footer footer footer";
+    grid-template-rows: 1fr 5fr 2fr;
+    gap:1vh 1vw;
+    align-items: center;
+    justify-items: center;
+}
+
+nav {
+    background-color: grey;
+    width: 97vw;
+    text-align: center;
+    grid-area: header;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-justify: center;
+}
+
+#idea {
+    grid-area: ideas;
+    background-color: green;
+    
+}
+
+#todo {
+    grid-area: todo;
+    background-color: red;
+    
+}
+
+#delays {
+    grid-area: delayed;
+    background-color: blue;
+    
+}
+
+#footer {
+    grid-area: footer;
+    background-color:lightgray;
+    text-align: left;
+    text-justify: center;
+}
