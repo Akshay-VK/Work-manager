@@ -25,7 +25,22 @@ body{
     background-color: black;
     position: absolute;
 
+    
 }
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #737373;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #575757;
+    border-radius: 20px;
+    border: 3px solid #737373;
+  }
 
 main {
     position:relative;
@@ -102,7 +117,7 @@ nav {
 }
 
 #userImage{
-    max-width:10%;
+    max-width:40px;
     border-radius: 50%;
     border-color: rgb(19, 43, 255);
     border-width: 10px;

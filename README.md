@@ -1,5 +1,7 @@
 # Work-manager
 
+To view the app visit <https://akshay-vk.github.io/Work-manager/public/>
+
 ## In simple terms...
 
 Work manager is a work manager website which uses the users Google Account to Sign in and store all data. It uses Firebase There are multiple sections in it:

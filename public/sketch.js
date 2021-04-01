@@ -23,7 +23,7 @@ auth.onAuthStateChanged(user => {
       <table>
         <tr>
           <td style="text-align: left;padding-left:50px;"><img id='userImage' src=''></td>
-          <td style="text-align: center;">HEADER</td>
+          <td style="text-align: center;">WORK MANAGER</td>
           <td style="text-align: right;"><button class="btn btn-primary" type="submit" onclick="auth.signOut();">Sign out</button></td>
         </tr>
       </table>
@@ -64,9 +64,6 @@ auth.onAuthStateChanged(user => {
         `;
         document.getElementById('main').innerHTML = html;
         document.getElementById('userImage').src=`${user.photoURL}`;
-        // document.getElementById('userImage').width='100px';
-        // document.getElementById('userImage').height='100px';
-        
         
     }else{
         console.log('not signed in.');
@@ -76,5 +73,3 @@ auth.onAuthStateChanged(user => {
     }
 });
 
-
-console.log("Hello world");
