@@ -50,7 +50,13 @@ auth.onAuthStateChanged(user => {
         <div class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</div>
         </div>
     </div>
-    <div id = "footer">NOTESSSSSSSS/ADDER<div class="btn btn-primary" type="submit">Add</div>
+    <div id = "footer">
+      <table>
+        <tr>
+          <td style="width:95%;">NOTES/ADDER</td>
+          <td><button class="btn btn-primary" type="submit">Add</button></td>
+        </tr>
+      </table><br>
       <div class="list-group">
         <div class="list-group-item list-group-item-action list-group-item-dark">Just for reminding that dark is there</div>
       </div>
